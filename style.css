@@ -1,0 +1,21 @@
+
+.banner {
+    background-color: grey;
+}
+
+.language_list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.language_list span {
+    height: 200px;
+    width: 24.5%;
+
+    background-color: lightcyan;
+    border: 1px solid black;
+    text-align: center;
+
+}
