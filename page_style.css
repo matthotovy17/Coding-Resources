@@ -1,0 +1,11 @@
+html{
+    background-color: lightgrey;
+}
+
+.header{
+    background-color:grey;
+}
+
+div section {
+    border:1px solid orange;
+}
