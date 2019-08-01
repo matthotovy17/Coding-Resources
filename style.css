@@ -11,9 +11,8 @@
 }
 
 .language_list span {
-    height: 200px;
+    height: 300px;
     width: 24%;
-    margin: 4px;
+    margin: 25px 5px;
     text-align: center;
-
 }
