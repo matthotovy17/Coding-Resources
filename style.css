@@ -3,6 +3,8 @@ html {
 }
 
 .banner {
+    width:95%;
+    margin:auto;
     padding: 3px;
     background-color: grey;
 }
@@ -21,14 +23,21 @@ h2 {
 
 .language_list {
     width: 100%;
+    margin:auto;
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
 }
 
 .language_list span {
-    height: 300px;
-    width: 24%;
-    margin: 25px 5px;
+    height: 20%;
+    width: 23%;
+    margin: auto;
     align-content: center;
+}
+
+h3 {
+    text-align:center;
+    margin:0px;
+    opacity:0.0;
 }

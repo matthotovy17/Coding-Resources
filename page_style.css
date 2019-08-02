@@ -3,7 +3,15 @@ html{
 }
 
 .header{
+    width:95%;
     background-color:grey;
+    padding: 5px;
+    margin:auto;
+    margin-bottom:5px;
+}
+
+h2{
+    margin:0px;
 }
 
 div section {
