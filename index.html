@@ -10,6 +10,16 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- Stuff I still want to add to this page
+
+        1. get the color scheme fixed
+        2. add in new fonts
+        3. add a drop down menu that can work on all of the pages to add another way to go to different pages
+        4. fix the heading make is something more attractive
+        5. 
+    
+    -->
+
 </head>
 <body>
     <div class="banner"> 
@@ -41,7 +51,7 @@
                             </g>
                         </g>
                     </svg>
-                    <h3>Java</h3>
+                    <!-- <h3>Java</h3> -->
                 </label>
             </span>
 
@@ -170,16 +180,16 @@
     $(function(){
         $("label").mouseenter(function(){
             var span = $(this).parent();
-            var lang = $(this).find("h3");
+            // var lang = $(this).find("h3");
             $(span).css({height:"21%", width:"24%", opacity:".4"});
-            $(lang).css({opacity:"1.0"});
+            // $(lang).css({opacity:"1.0"});
         });
 
         $("label").mouseleave(function(){
             var span = $(this).parent();
-            var lang = $(this).find("h3");
+            // var lang = $(this).find("h3");
             $(span).css({height:"20%", width:"23%", opacity:"1.0"});
-            $(lang).css({opacity:"0.0"});
+            // $(lang).css({opacity:"0.0"});
         });
     });
 
