@@ -24,6 +24,16 @@ section {
     border:1px solid orange;
 }
 
-section h4{
+section h3{
     text-align:center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+a:hover {
+    color: gray;
 }
