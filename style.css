@@ -1,16 +1,18 @@
 html {
-    background-color: lightgrey;
+    background-color: #FDFFFC;
 }
 
 .banner {
     width:95%;
     margin:auto;
     padding: 3px;
-    background-color: grey;
+    background-color: #F93943;
 }
 
 h2 {
     margin:3px;
+    color: #011627;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .input {

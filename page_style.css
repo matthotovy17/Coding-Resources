@@ -1,17 +1,27 @@
 html{
-    background-color: lightgrey;
+    background-color: #FDFFFC;
 }
 
 .header{
     width:95%;
-    background-color:grey;
+    background-color:#F93943;
     padding: 5px;
     margin:auto;
     margin-bottom:5px;
 }
 
+.header span a {
+    color: #011627;
+}
+
+.header span a:hover {
+    color: #41EAD4;
+}
+
 h2{
     margin:0px;
+    color: #011627;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .main{
@@ -26,12 +36,13 @@ section {
 
 section h3{
     text-align:center;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 a {
     color: black;
     text-decoration: none;
-    font-family: Arial;
+    font-family: 'Varela Round', sans-serif;
 }
 
 a:hover {
